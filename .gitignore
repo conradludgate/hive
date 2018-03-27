@@ -30,3 +30,11 @@
 *.exe
 *.out
 *.app
+
+# glad
+src/glad.c
+include/glad/glad.h
+include/KHR/khrplatform.h
+
+release/*
+debug/*
