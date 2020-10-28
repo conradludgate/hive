@@ -10,7 +10,7 @@ LIBS = $(addprefix -l, $(_LIBS))
 # Project files
 #
 SRCDIR = src
-SRCS = $(wildcard $(SRCDIR)/*)
+SRCS = $(wildcard $(SRCDIR)/*.cpp)
 OBJS = $(SRCS:$(SRCDIR)/%.cpp=%.o)
 EXE  = hive
 
